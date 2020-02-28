@@ -33,7 +33,7 @@ h1 {
 }
 
 #hero {
-  padding-top: 80px;
+  padding: 80px 20px 0 20px;
 }
 #hero h3 {
   font-size: 24px;
@@ -105,6 +105,7 @@ h1 {
 /* sezione plan */
 #plan {
   margin-top: 100px;
+  padding: 0 20px;
 }
 
 #plan h2 {
@@ -148,7 +149,7 @@ h1 {
 
 #plan .item-screenshot img {
   max-width: 100%;
-  height: 500px;
+  min-height: 400px;
 }
 
 #plan .item-screenshot {
@@ -159,6 +160,7 @@ h1 {
 #focus {
   margin-top: 50px;
   background-color: #2a4b77;
+  padding: 0 20px;
 }
 
 #focus p {
@@ -203,7 +205,7 @@ h1 {
 
 /* sezione track */
 #track {
-  padding-bottom: 30px;
+  padding-bottom: 0 20px 30px 20px;
 }
 
 #track h2 {
@@ -271,10 +273,9 @@ footer .item {
 /* desktop */
 @media screen and (min-width: 992px) {
 
-  #hero {
-    padding-right: 20px;
-    padding-left: 20px;
-  }
+
+
+  /* sezion */
 }
 
 
@@ -283,10 +284,6 @@ footer .item {
 
 
   /* sezione hero */
-  #hero {
-    padding-right: 20px;
-    padding-left: 20px;
-  }
 
   #hero .title {
     text-align: center;
@@ -318,6 +315,20 @@ footer .item {
   #hero .screenshot-hero {
     margin-top: 50px;
     text-align: center;
+  }
+
+  /* sezione plan */
+  #plan .item-right {
+    text-align: center;
+    padding-top: 0;
+  }
+
+  #plan h2 {
+    font-size: 38px;
+  }
+
+  #plan p, #plan h4 {
+    font-size: 20px;
   }
 }
 
@@ -368,6 +379,33 @@ footer .item {
 
   #hero .screenshot-hero img {
     height: 450px;
+  }
+
+  /* sezione plan */
+  #plan .item-right {
+    text-align: center;
+    padding-top: 0;
+  }
+
+  #plan .item-left h4,
+  #plan .item-left p {
+    text-align: center;
+  }
+
+  #plan h2 {
+    font-size: 40px;
+  }
+
+  #plan p, #plan h4 {
+    font-size: 22px;
+  }
+
+  #plan .item-screenshot {
+    margin-bottom: 10px;
+  }
+
+  #plan .item-left {
+    margin-bottom: 40px;
   }
 
 }
@@ -423,5 +461,29 @@ footer .item {
   #hero .screenshot-hero img {
     height: 350px;
   }
+
+  /* sezione plan */
+  #plan .item-right {
+    text-align: center;
+    padding-top: 0;
+  }
+
+  #plan .item-left h4,
+  #plan .item-left p {
+    text-align: center;
+  }
+
+  #plan h2 {
+    font-size: 42px;
+  }
+
+  #plan p, #plan h4 {
+    font-size: 24px;
+  }
+
+  #plan .item-left {
+    padding-top: 80px;
+  }
+
 
 }
