@@ -83,11 +83,11 @@ h1 {
   height: 150px;
 }
 
-.screenshot {
+.screenshot-hero {
   margin-bottom: -33px;
 }
 
-.screenshot img {
+.screenshot-hero img {
   height: 700px;
 }
 
@@ -141,4 +141,50 @@ h1 {
 
 #plan .item-screenshot {
   padding-top: 35px;
+}
+
+/* sezione focus */
+#focus {
+  margin-top: 50px;
+  background-color: #2a4b77;
+}
+
+#focus p {
+  color: #7393c1;
+  font-size: 18px;
+}
+
+#focus h2 {
+  font-size: 36px;
+  color: #fff;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+#focus h3 {
+  font-size: 24px;
+  color: #fff;
+  font-weight: normal;
+}
+
+#focus .section-title {
+  padding-top: 50px;
+  text-align: center;
+}
+
+#focus img {
+  height: 300px;
+}
+
+#focus [class*="item-"] {
+  text-align: center;
+  padding: 45px 15px;
+}
+
+#focus .caption-screenshot {
+  padding-top: 32px;
+}
+
+#focus .caption-screenshot p {
+  margin-top: 20px;
 }
