@@ -465,6 +465,11 @@ footer .item {
     font-size: 18px;
   }
 
+  /* bottone fisso */
+  .button-fixed {
+    display: none;
+  }
+
 
 }
 
@@ -593,6 +598,11 @@ footer .item {
 
   footer .item {
     text-align: center;
+  }
+
+  /* bottone fisso */
+  .button-fixed {
+    display: none;
   }
 
 }
