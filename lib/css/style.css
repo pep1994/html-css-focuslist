@@ -54,12 +54,21 @@ h1 {
 #hero li {
   float: left;
   margin-right: 25px;
+  opacity: .5
 }
 
 #hero li a {
   display: inline-block;
   line-height: 19px;
-  opacity: .5
+
+}
+
+#hero li:hover {
+  opacity: 1;
+}
+
+#hero li:hover span {
+  color: #fff;
 }
 
 #hero li span {
@@ -88,6 +97,8 @@ h1 {
 }
 
 .screenshot-hero img {
+
+  max-width: 100%;
   height: 700px;
 }
 
@@ -136,6 +147,7 @@ h1 {
 }
 
 #plan .item-screenshot img {
+  max-width: 100%;
   height: 500px;
 }
 
@@ -248,4 +260,168 @@ footer .item {
   bottom: 0;
   right: 0;
   z-index: 100;
+}
+
+
+
+
+/* media query */
+
+
+/* desktop */
+@media screen and (min-width: 992px) {
+
+  #hero {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+
+  /* sezione hero */
+  #hero {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  #hero .title {
+    text-align: center;
+  }
+
+  #hero .logo-container {
+    padding-top: 0;
+  }
+
+  #hero .logo-container img {
+    height: 200px;
+  }
+
+  #hero h1 {
+    font-size: 38px;
+  }
+
+  #hero .title ul {
+    text-align: center;
+  }
+
+  #hero .title ul li {
+    float: none;
+    display: inline-block;
+    padding: 0 30px;
+    margin-right: 0;
+  }
+
+  #hero .screenshot-hero {
+    margin-top: 50px;
+    text-align: center;
+  }
+}
+
+/* mobile - landscape */
+@media screen and (min-width: 560px) and (max-width: 767px) {
+
+  /* sezione hero */
+  #hero {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  #hero .title {
+    text-align: center;
+  }
+
+  #hero .logo-container {
+    padding-top: 0;
+  }
+
+  #hero .logo-container img {
+    height: 200px;
+  }
+
+  #hero .title h3 {
+    font-size: 24px;
+  }
+
+  #hero h1 {
+    font-size: 40px;
+  }
+
+  #hero .title ul {
+    text-align: center;
+  }
+
+  #hero .title ul li {
+    float: none;
+    display: inline-block;
+    padding: 0 30px;
+    margin-right: 0;
+  }
+
+  #hero .screenshot-hero {
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  #hero .screenshot-hero img {
+    height: 450px;
+  }
+
+}
+
+/* mobile - portrait */
+@media screen and (max-width: 559px) {
+
+  /* sezione hero */
+  #hero {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  #hero .title {
+    text-align: left;
+  }
+
+  #hero .logo-container {
+    padding-top: 0;
+    text-align: center;
+
+  }
+
+  #hero .logo-container img {
+    height: 220px;
+  }
+
+  #hero .title h3 {
+    font-size: 26px;+
+  }
+
+  #hero h1 {
+    font-size: 42px;
+  }
+
+
+  #hero .title ul {
+    text-align: center;
+  }
+
+  #hero .title ul li {
+    float: none;
+    display: inline-block;
+    padding: 0 30px;
+    margin-right: 0;
+  }
+
+  #hero .screenshot-hero {
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  #hero .screenshot-hero img {
+    height: 350px;
+  }
+
 }
