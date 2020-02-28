@@ -237,3 +237,15 @@ footer .title-item {
 footer .item {
   padding: 40px 0;
 }
+
+/* bottone fisso */
+.button-fixed img {
+  height: 70px;
+}
+
+.button-fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 100;
+}
