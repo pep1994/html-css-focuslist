@@ -188,3 +188,33 @@ h1 {
 #focus .caption-screenshot p {
   margin-top: 20px;
 }
+
+/* sezione track */
+#track {
+  padding-bottom: 30px;
+}
+
+#track h2 {
+  font-size: 36px;
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+
+#track p {
+  font-size: 18px;
+  color: #9ba6b7;
+}
+
+#track .section-title {
+  text-align: center;
+  padding-top: 45px;
+}
+
+#track [class*="item-"] {
+  text-align: center;
+}
+
+
+#track img {
+  height: 600px;
+}
