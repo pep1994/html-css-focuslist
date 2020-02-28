@@ -237,6 +237,7 @@ h1 {
 /* footer */
 footer {
   background: #113462;
+  padding: 0 20px;
 }
 
 footer a {
@@ -252,6 +253,7 @@ footer .title-item {
 footer .item {
   padding: 40px 0;
 }
+
 
 /* bottone fisso */
 .button-fixed img {
@@ -450,6 +452,20 @@ footer .item {
     margin-bottom: 20px;
   }
 
+  /* footer */
+  footer .item {
+    text-align: center;
+  }
+
+  footer a {
+    font-size: 18px;
+  }
+
+  footer li {
+    font-size: 18px;
+  }
+
+
 }
 
 /* mobile - portrait */
@@ -560,6 +576,23 @@ footer .item {
 
   #track img {
     max-height: 500px;
+  }
+
+  /* footer */
+  .clear-l {
+    clear: left;
+  }
+
+  footer a {
+    font-size: 20px;
+  }
+
+  footer li {
+    font-size: 20px;
+  }
+
+  footer .item {
+    text-align: center;
   }
 
 }
