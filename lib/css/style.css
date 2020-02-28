@@ -1,0 +1,16 @@
+/* general */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+[class*="col-"] {
+  height: 150px;
+  border: solid 1px red;
+}
+
+section {
+  height: 400px;
+  border: solid 1px #000;
+}
