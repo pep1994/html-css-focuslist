@@ -206,7 +206,7 @@ h1 {
 
 /* sezione track */
 #track {
-  padding-bottom: 0 20px 30px 20px;
+  padding: 0 20px 30px 20px;
 }
 
 #track h2 {
@@ -231,7 +231,7 @@ h1 {
 
 
 #track img {
-  height: 600px;
+  max-height: 600px;
 }
 
 /* footer */
@@ -333,6 +333,17 @@ footer .item {
   #plan p, #plan h4 {
     font-size: 20px;
   }
+
+  /* sezione track */
+  #track h2 {
+    font-size: 38px;
+  }
+
+  #track p {
+    font-size: 19px;
+    margin-bottom: 20px;
+  }
+
 }
 
 /* mobile - landscape */
@@ -426,6 +437,17 @@ footer .item {
 
   #focus .item-right {
     padding-top: 0;
+  }
+
+
+  /* sezione track */
+  #track h2 {
+    font-size: 38px;
+  }
+
+  #track p {
+    font-size: 20px;
+    margin-bottom: 20px;
   }
 
 }
@@ -524,6 +546,20 @@ footer .item {
 
   #focus .item-left, #focus .item-center {
     border-bottom: solid 1px rgba(0, 0, 0, .5);
+  }
+
+  /* sezione track */
+  #track h2 {
+    font-size: 40px;
+  }
+
+  #track p {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  #track img {
+    max-height: 500px;
   }
 
 }
