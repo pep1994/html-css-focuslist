@@ -6,8 +6,8 @@
   font-family: sans-serif;
 }
 
-[class*="col-"] {
-
+body {
+  background: #f6f7f8;
 }
 
 
@@ -59,6 +59,7 @@ h1 {
 #hero li a {
   display: inline-block;
   line-height: 19px;
+  opacity: .5
 }
 
 #hero li span {
@@ -88,4 +89,56 @@ h1 {
 
 .screenshot img {
   height: 700px;
+}
+
+/* sezione plan */
+#plan {
+  margin-top: 100px;
+}
+
+#plan h2 {
+  font-size: 36px;
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+
+#plan p {
+  font-size: 18px;
+  color: #9ba6b7;
+}
+
+#plan h4 {
+  font-size: 18px;
+  color: #274daf;
+  margin-bottom: 25px;
+}
+
+#plan .item-left,
+#plan .item-right {
+  padding-top: 160px;
+}
+
+#plan .item-left {
+  padding-right: 25px;
+}
+
+#plan .item-right {
+  padding-left: 25px;
+}
+
+#plan .item-left h4,
+#plan .item-left p {
+  text-align: right;
+}
+
+#plan .section-title {
+  text-align: center;
+}
+
+#plan .item-screenshot img {
+  height: 500px;
+}
+
+#plan .item-screenshot {
+  padding-top: 35px;
 }
